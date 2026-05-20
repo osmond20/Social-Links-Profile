@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Inter';
+    color: hsl(0, 0%, 100%);        
+}
+
+/*body layout*/
+body{
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: hsl(0, 0%, 8%);
+}
+
+/*Parent container layout*/
+.container{
+    /*350px*/
+    height: 525px;
+    /*300px*/
+    width: 300px;
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+
+    @media(width >= 40rem){
+        height: 600px;
+        width: 350px;
+    }
+}
+
+/*Profile details layout*/
+.container_profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    width: 100%;
+    height: 310px;
+}
+
+/*Links layout*/
+.container_links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 340px;
+}
+
+/*Container Profile element*/
+.profile_pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile_pic > .pic{
+    height: 90px;
+    border-radius:80px;
+}
+
+.profile_details > h2{
+    font-size: clamp(1.15rem, 4vw, 1.5rem);
+    text-align: center;
+    font-weight: 600;
+}
+
+.profile_details > p{
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+}
+
+.profile_info > p{
+    font-size: clamp(0.75rem, 2vw, 0.9rem);
+    font-weight: 400;
+}
+
+
+/*Container links element*/
+.link_child{
+    gap: 10px 0px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.link_child > a{
+     text-decoration: none;
+ 
+}
+
+.link_child > a > button{
+ display:block;
+ background-color: hsl(0, 0%, 20%);
+ margin-bottom: 10px;
+ width: 100%;
+ height: 40px;
+ border-radius: 7px;
+ border: none;
+ text-decoration: none;
+ font-weight: 600;
+ transition: background-color 0.3s ease;
+
+ @media (width >=40rem){
+    margin-bottom: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+ }
+}
+
+/*focus states on links*/       
+.link_child > .link:focus-visible{
+    outline: 1px solid white;
+    outline-offset: .25rem;
+}
+
+/*hover states on buttons*/
+.link_child > .link > button:hover{
+    cursor: pointer;
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+
