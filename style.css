@@ -90,8 +90,12 @@ body{
 .link_child{
     gap: 10px 0px;
     width: 100%;
-    padding: 20px 35px;
+    padding: 20px 25px;
     text-align: center;
+
+    @media (width >= 40rem){
+       padding: 20px 27px; 
+    }
 }
 
 .link_child > a{
