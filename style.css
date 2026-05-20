@@ -90,13 +90,12 @@ body{
 .link_child{
     gap: 10px 0px;
     width: 100%;
-    padding: 20px;
+    padding: 20px 35px;
     text-align: center;
 }
 
 .link_child > a{
      text-decoration: none;
- 
 }
 
 .link_child > a > button{
