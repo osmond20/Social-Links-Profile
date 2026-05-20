@@ -54,7 +54,7 @@ Will be focusing on mobile-first design to ensure responsive design.
 ### Useful resources
 
 - [resource 1](https://www.youtube.com/watch?v=K7m13jOby5Q) - helped me figure out how to reduce the font-size responsively without media queries
-- [Example resource 2](https://www.example.com) - Helped me understand and connect in a easy way how focus states can be used in a project
+- [resource 2](https://www.example.com) - Helped me understand and connect in a easy way how focus states can be used in a project
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
@@ -63,7 +63,7 @@ I used Gemini for this one, and it helped provide a roadmap or pathway, if you w
 
 ## Author
 
-- Website - [Social Links site](https://www.your-site.com)
+- Website - [Social Links site](https://osmond20.github.io/Social-Links-Profile/)
 - Frontend Mentor - [@osmond20](https://www.frontendmentor.io/profile/osmond20)
 - Github - [osmond20](https://github.com/osmond20)
 
